@@ -1,0 +1,16 @@
+;Comments
+;
+;
+;
+
+[Main]
+
+
+[database]
+;ip-address = 127.0.0.1
+host = 3306
+username = root
+wachtwoord = password123
+database_naam = mysql
+
+[overig]

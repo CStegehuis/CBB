@@ -1,0 +1,145 @@
+﻿Usecase:0           ToonBestelling
+Actor:                  Klant
+pre-condities:    programma is gestart, hoofdmenu wordt getoond.
+post-condities:  informatie over gevraagde leverancier wordt getoond.
+mainflow:           1. gebruiker geeft leverancier op. (E1)
+                              2. Systeem geeft leverancier informatie en bestellingen,
+                                  geeft keuze terug of bestelnummer voor details. (E1)
+                                  2a. als terug, programma keert terug naar hoofdmenu.
+                                  2b als bestelnummer bestelling details worden opgehaald en getoond.
+                              3. programma vraagt: terug? of artikelcode voor tonen artikel details.
+                                 3a. als terug, programma keert terug naar hoofdmenu.
+                                  3b. als artikelcode, details artikel worden getoond.
+                              4. Systeem geeft keuze terug of vraagt naar andere artikelcode.
+                                  4a. als terug, systeem keert terug naar bestelnummer keuze.
+                                  4b. als andere artikelcode, details bij artikelcode worden getoond.
+Exceptions:         E1 Ongeldige leverancier- of bestelnummer
+                              1 Foutmelding wordt gegeven
+                              2 Programma wordt afgesloten 
+
+
+
+
+Use Case: 
+
+Use Case ID
+
+Korte Beschrijving
+
+Primaire Actors
+
+Secundaire Actors
+
+Pre-Condities
+
+Post-Condities
+
+Mainflow 
+
+Alternatieve Flows
+
+Post Conditie
+
+Exception Flows
+
+Post Conditie
+
+
+
+
+Use Case: 
+Bestelgegevens tonen
+
+Use Case ID
+C1
+
+Korte Beschrijving
+De klant kan de gegevens van een geselecteerde bestelling opvragen 
+
+Primaire Actors
+Klant
+Secundaire Actors
+Geen
+
+Pre-Condities
+Het programma is gestart. Het hoofdmenu is getoond. Een bestellingID is geselecteerd. 
+Post-Condities
+Informatie over de gevraagde bestelling wordt getoond. 
+Mainflow 
+
+Alternatieve Flows
+
+Post Conditie
+
+Exception Flows
+
+Post Conditie
+
+
+
+Include Use Case: 
+Bestelling selecteren 
+Use Case ID
+C4
+
+Korte Beschrijving
+De klant kan een bestelling selecteren om hier de gegevens van te zien, deze te wijzigen of te verwijderen. 
+
+Primaire Actors
+Klant
+Secundaire Actors
+Geen
+
+Pre-Condities
+Het programma is gestart. Het hoofdmenu is getoond. 
+Post-Condities
+Bestelling ID is geselecteerd. 
+
+Mainflow 
+1. Systeem vraagt klant om bestelling ID 
+2. Zonder maximum: 
+2.1 Klant geeft bestelling ID op [A1]
+2.2 Systeem controleert bestelling ID 
+2.3 Als bestelling ID fout: ga terug naar 2.
+3. Systeem beeindigt use case mt succesvolle selectie
+Alternatieve Flows
+
+
+Post Conditie
+A1 Klant onderbreekt de selectie
+1. Systeem geeft klant melding over afbreken selectie
+2. Main menu wordt getoond aan klant
+Use Case wordt beëindigd
+Exception Flows
+
+
+Post Conditie
+
+
+
+
+Use Case: 
+Bestelling toevoegen 
+Use Case ID
+C5
+Korte Beschrijving
+De gebruiker kan een bestelling toevoegen aan de database met 
+Primaire Actors
+
+Secundaire Actors
+
+Pre-Condities
+
+Post-Condities
+
+Mainflow 
+
+Alternatieve Flows
+
+Post Conditie
+
+Exception Flows
+
+Post Conditie
+
+

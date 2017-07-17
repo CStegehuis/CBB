@@ -1,0 +1,12 @@
+Jul 10, 2017 1:37:21 PM RunProgramma initializeLogFile
+INFO: Log file - de sessie is geopend 
+
+Jul 10, 2017 1:37:21 PM RunProgramma createDbConnection
+INFO: Creating the database connection 
+
+Jul 10, 2017 1:37:21 PM ocict.db.DbConnection createConnection
+INFO: Connecting to the database 
+
+Jul 10, 2017 1:37:21 PM RunProgramma createDbConnection
+INFO: The database connection is created 
+
